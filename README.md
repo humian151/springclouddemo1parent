@@ -6,7 +6,6 @@
 
 注意消费者需要引入spring-cloud-api但是不需要jpa包，这里我们需要移出掉里面的jpa依赖，否则会启动报错
 
-···
 <exclusions>
                 <exclusion>
                     <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -14,6 +13,5 @@
                 </exclusion>
             </exclusions>
             
-···
 
 - 安全管理项目spring-cloud-security

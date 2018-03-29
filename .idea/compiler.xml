@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-provider" />
+        <module name="springcloudapi" />
+        <module name="springcloudcuonsumer80" />
+        <module name="springcloudsecurity" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-provider" target="1.8" />
+      <module name="springcloudapi" target="1.8" />
+      <module name="springcloudcuonsumer80" target="1.8" />
+      <module name="springclouddemo1parent" target="1.8" />
+      <module name="springcloudsecurity" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
